@@ -1,20 +1,21 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vision Bridge Assignment</title>
-  <link rel="stylesheet" href="./index.css">
-  <script src="./index.js" defer></script>
-</head>
-<body>
-  <div class="container">
-    <h1>Dom Configuration</h1>
-    <p class="subheading">
-      insert a yaml file to configure a page
-    </p>
-    <div class="" ></div>
-    <button class="button" onclick="">Insert</button>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vision Bridge Assignment</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Dom Configuration</h1>
+      <p class="subheading">submit a yaml file to configure a page</p>
+      <div class="fileSubmit">
+        <input type="file" id="yamlInput" accept=".yaml,.yml" multiple />
+        <button class="button" onclick="handleYamlUpload()">Upload</button>
+      </div>
+    </div>
+  </body>
 </html>
