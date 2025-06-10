@@ -18,7 +18,7 @@
 .ad-banner {
   width: 100%;
   height: 100px;
-  background-color: #A7C1A8;
+  background-color: #a7c1a8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +30,6 @@
 
 .some-text {
   font-size: x-large;
-
 }
 
 .submit-text {
@@ -52,5 +51,7 @@
 
 .file-submit {
   flex-direction: row;
+  display: flex;
   align-items: center;
+  justify-content: center;
 }

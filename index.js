@@ -35,7 +35,7 @@ function handleYamlUpload() {
       }
     };
 
-    reader.onerror = function() {
+    reader.onerror = function () {
       console.log("File reading failed");
     }
 
