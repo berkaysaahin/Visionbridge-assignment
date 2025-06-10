@@ -33,6 +33,10 @@
 
 }
 
+.submit-text {
+  font-size: larger;
+}
+
 .submit-button {
   background-color: #29423c;
   border: none;

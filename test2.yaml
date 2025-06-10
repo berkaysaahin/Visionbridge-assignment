@@ -1,6 +1,6 @@
 actions:
   - type: remove
-    selector: ".ad-banner"
+    selector: ".subheading"
 
   - type: replace
     selector: "#old-header"
@@ -12,5 +12,6 @@ actions:
     element: "<footer>Footer Content</footer>"
 
   - type: alter
-    oldValue: "Artificial Intelligence"
-    newValue: "ML"
+    selector: ".submit-text"
+    oldValue: "YAML"
+    newValue: "JSON"
